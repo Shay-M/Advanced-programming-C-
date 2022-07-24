@@ -1,6 +1,6 @@
 /*This Project was the result of blood sweat and tears of:
-Shay Mualem ID: 200332435  |Grop num 661108-62
-Maxim Gromov ID: 317225332 |Grop num 61108-61
+Shay Mualem   |Grop num 661108-62
+Maxim Gromov  |Grop num 61108-61
 */
 
 #include<stdio.h>
@@ -83,7 +83,7 @@ _Three createThree(int i, int j)
 }
 
 //Create an array of triplets
-_Three * createThreeArr(int** mat, int count, int _rows, int _cols)//ôåğ÷öéä îáå÷ùú
+_Three * createThreeArr(int** mat, int count, int _rows, int _cols)//Ã´Ã¥Ã°Ã·Ã¶Ã©Ã¤ Ã®Ã¡Ã¥Ã·Ã¹Ãº
 {
 	_Three* arr = (_Three*)malloc(count * sizeof(_Three));
 	int i, j, k = 0;
@@ -101,7 +101,7 @@ _Three * createThreeArr(int** mat, int count, int _rows, int _cols)//ôåğ÷öéä îáå
 }
 
 //Create a Linked List of Triplets
-_ThreeList * createThreeList(int** mat, int count, int _rows, int _cols)//ôåğ÷öéä îáå÷ùú
+_ThreeList * createThreeList(int** mat, int count, int _rows, int _cols)//Ã´Ã¥Ã°Ã·Ã¶Ã©Ã¤ Ã®Ã¡Ã¥Ã·Ã¹Ãº
 {
 	int i, j;
 	_ThreeList * head = NULL;
